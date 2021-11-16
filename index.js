@@ -25,17 +25,17 @@ const pzToMi = 105;
 const pzToPe = 75;
 const miToPe = 70;
 
-if ((startingStation === 1 && destinationStation === 2) || (startingStation = 2 && destinationStation == 1)) {
+if ((startingStation === 1 && destinationStation === 2) || (startingStation = 2 && destinationStation === 1)) {
 	distanceToTravel = prToPz;
-} else if ((startingStation === 1 && destinationStation === 3) || (startingStation = 3 && destinationStation == 1)) {
+} else if ((startingStation === 1 && destinationStation === 3) || (startingStation = 3 && destinationStation === 1)) {
 	distanceToTravel = prtoMi;
-} else if ((startingStation === 1 && destinationStation === 4) || (startingStation = 4 && destinationStation == 1)) {
+} else if ((startingStation === 1 && destinationStation === 4) || (startingStation = 4 && destinationStation === 1)) {
 	distanceToTravel = prToPe;
-} else if ((startingStation === 2 && destinationStation === 3) || (startingStation = 3 && destinationStation == 2)) {
+} else if ((startingStation === 2 && destinationStation === 3) || (startingStation = 3 && destinationStation === 2)) {
 	distanceToTravel = pzToMi;
-} else if ((startingStation === 2 && destinationStation === 4) || (startingStation = 2 && destinationStation == 4)) {
+} else if ((startingStation === 2 && destinationStation === 4) || (startingStation = 2 && destinationStation === 4)) {
 	distanceToTravel = pzToPe;
-} else if ((startingStation === 3 && destinationStation === 4) || (startingStation = 4 && destinationStation == 3)) {
+} else if ((startingStation === 3 && destinationStation === 4) || (startingStation = 4 && destinationStation === 3)) {
 	distanceToTravel = miToPe;
 }
 
