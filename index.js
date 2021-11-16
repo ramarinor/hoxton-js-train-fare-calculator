@@ -46,4 +46,8 @@ if (costumerAge <= 18) {
 if (costumerAge >= 65) {
 	ticketPrice = ticketPrice * 0.6;
 }
-alert(`Your ticket price is £${ticketPrice.toFixed(2)}`);
+if (ticketPrice > 0) {
+	alert(`Your ticket price is £${ticketPrice.toFixed(2)}`);
+} else {
+	alert("Oops you typed something wrong. Please reload the page and try again");
+}
