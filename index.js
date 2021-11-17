@@ -1,6 +1,6 @@
 const pricePerKilometer = 0.21;
 let costumerAge = Number(prompt("How old are you?"));
-let distanceToTravel;
+let distanceToTravel = 0;
 
 let startingStation = Number(
 	prompt(`From which station are you travelling? Type:
